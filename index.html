@@ -1,0 +1,416 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Carla Cueto | Frontend Developer & Translator</title>
+
+    <meta
+        name="description"
+        content="Frontend developer and translator creating sleek responsive websites and multilingual experiences."
+    >
+
+    <link rel="stylesheet" href="stylesheet.css">
+
+    <!-- Fonts -->
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+
+    <link
+        rel="preconnect"
+        href="https://fonts.gstatic.com"
+        crossorigin
+    >
+
+    <link
+        href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap"
+        rel="stylesheet"
+    >
+</head>
+
+<body>
+
+    <!-- =========================
+         Header
+    ========================== -->
+
+    <header class="header">
+
+        <nav class="navbar">
+
+
+            <div>
+
+                <a href="#">
+                    Home
+                </a>
+
+                <a href="#about-section">
+                    About
+                </a>
+
+                <a href="#projects-section">
+                    Projects
+                </a>
+
+                <a href="#services-section">
+                    Services
+                </a>
+
+                <a href="#contact-section">
+                    Contact
+                </a>
+
+            </div>
+
+        </nav>
+
+    </header>
+
+    <!-- =========================
+         Main
+    ========================== -->
+
+    <main>
+
+        <!-- =========================
+             Hero
+        ========================== -->
+
+        <section class="hero">
+
+            <div class="hero-text">
+
+
+                <!-- Language Switcher -->
+
+                <div class="language-switcher">
+
+                    <button onclick="changeLanguage('en')">
+                        EN
+                    </button>
+
+                    <button onclick="changeLanguage('pt')">
+                        PT
+                    </button>
+
+                    <button onclick="changeLanguage('es')">
+                        ES
+                    </button>
+
+                </div>
+
+                <!-- Hero Content -->
+
+                <h1 id="title">
+                    Hi, I'm Carla <br>
+                    Cueto
+                </h1>
+
+                <h2 id="subtitle">
+                    Frontend Developer and Translator
+                </h2>
+
+                <p
+                    class="hero-description"
+                    id="description"
+                >
+                    I create sleek, responsive, and user friendly websites
+                    using HTML and CSS. I also provide translation and
+                    localization services in English, Portuguese,
+                    and Spanish.
+                </p>
+
+                <!-- Info Row -->
+
+                <div class="info-row">
+
+                    <span id="inforow1">
+                        Based in Brazil
+                    </span>
+
+                    <span id="inforow2">
+                        Available Now
+                    </span>
+
+                </div>
+
+                <!-- Buttons -->
+
+                <div class="buttons">
+
+                    <a
+                        href="#contact-section"
+                        class="btn dark"
+                        id="hire-btn"
+                    >
+                        Hire Me
+                    </a>
+
+                    <a
+                        href="#projects-section"
+                        class="btn light"
+                        id="projects-btn"
+                    >
+                        View Projects
+                    </a>
+
+                </div>
+
+                <!-- Socials -->
+
+                <div class="socials">
+
+                    <span
+                        class="social-label"
+                        id="follow"
+                    >
+                        Follow me
+                    </span>
+
+                    <a href="https://github.com/carlacuetoche-code">
+                        GitHub
+                    </a>
+
+                    <a href="https://www.fiverr.com/s/Ke24EqE">
+                        Fivver
+                    </a>
+
+                    <a href="">
+                        Instagram
+                    </a>
+
+                </div>
+
+            </div>
+
+            <!-- Hero Image -->
+
+            <div class="hero-image">
+
+                <img
+                    src="carla.png"
+                    alt="Illustration of Carla working on a laptop"
+                >
+
+            </div>
+
+        </section>
+
+        <!-- =========================
+             About
+        ========================== -->
+
+        <section
+            id="about-section"
+            class="section"
+        >
+
+            <div class="section-heading">
+
+                <span
+                    class="section-tag"
+                    ></span>
+
+                <h3 id="quote">
+                    Creating modern digital experiences.
+                </h3>
+
+            </div>
+
+            <p
+                class="section-text"
+                id="sectiontext"
+            >
+                I am a freelance frontend developer focused on clean
+                interfaces, responsive layouts, and minimal design.
+                I enjoy combining modern aesthetics with multilingual
+                communication and creative branding.
+            </p>
+
+        </section>
+
+        <!-- =========================
+             Projects
+        ========================== -->
+
+        <section
+            id="projects-section"
+            class="section"
+        >
+
+            <div class="section-heading">
+
+                <span
+                    class="section-tag"
+                >
+                    
+                </span>
+
+                <h3 id="work">
+                    Selected Work
+                </h3>
+
+            </div>
+
+            <div class="project-grid">
+
+                <!-- Project 1 -->
+
+                <article class="project-card">
+
+                    <div class="project-preview">
+                        
+                         <img src="Captura de Tela (36).png">
+                    </div>
+
+                    <div class="project-content">
+                        <h4 id="web1">
+                            Institutional Website
+                        </h4>
+
+                        <p id="web1desc">
+                            Modern responsive website for a fictional organization.
+                        </p>
+
+                    </div>
+
+                </article>
+
+                <!-- Project 2 -->
+
+                <article class="project-card">
+
+                    <div class="project-preview"><img src="Captura de Tela (34).png"></div>
+
+                    <div class="project-content">
+
+                        <h4 id="web2">
+                            Researcher Portfolio
+                        </h4>
+
+                        <p id="web2desc">
+                            Minimal academic portfolio focused on accessibility and design.
+                        </p>
+
+                    </div>
+
+                </article>
+
+            </div>
+
+        </section>
+
+        <!-- =========================
+             Services
+        ========================== -->
+
+        <section
+            id="services-section"
+            class="section"
+        >
+
+            <div class="section-heading">
+
+                <span
+                    class="section-tag"
+                    ></span>
+
+                <h3 id="services-title">
+                    What I Offer
+                </h3>
+
+            </div>
+
+            <div class="service-grid">
+                <article class="service-card">
+
+                    <h4>
+                        Frontend Development
+                    </h4>
+
+                    <p>
+                        Responsive websites and landing pages
+                        using HTML and CSS.
+                    </p>
+
+                </article>
+
+                <article class="service-card">
+
+                    <h4>
+                        Translation
+                    </h4>
+
+                    <p>
+                        Translation between English,
+                        Portuguese, and Spanish.
+                    </p>
+
+                </article>
+
+                <article class="service-card">
+
+                    <h4>
+                        Website Localization
+                    </h4>
+
+                    <p>
+                        Helping websites feel natural across
+                        multiple languages.
+                    </p>
+
+                </article>
+
+            </div>
+
+        </section>
+
+        <!-- =========================
+             Contact
+        ========================== -->
+
+        <section
+            id="contact-section"
+            class="section contact"
+        >
+
+            <span
+                class="section-tag"
+                id="contact-tag"
+            >
+                Contact
+            </span>
+
+            <h3 id="contact-title">
+                Let's Work Together
+            </h3>
+
+            <p
+                class="contact-text"
+                id="contact-text"
+            >
+                Available for freelance frontend development,
+                translation, and creative digital projects.
+            </p>
+
+            <a
+                href="https://www.fiverr.com/s/Ke24EqE"
+                class="btn dark"
+            >
+                Fivver page
+            </a>
+
+        </section>
+
+    </main>
+
+    <!-- JavaScript -->
+
+    <script src="javascript.js"></script>
+
+</body>
+
+</html>
